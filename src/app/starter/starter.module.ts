@@ -7,12 +7,23 @@ import { StarterComponent } from './starter.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'Bianca',
     data: {
       title: 'Bia',
       urls: [
         { title: 'Dashboard', url: '/dashboard' },
         { title: 'Bianca' }
+      ]
+    },
+    component: StarterComponent
+  },
+  {
+    path: 'Jose',
+    data: {
+      title: 'Jose',
+      urls: [
+        { title: 'Dashboard', url: '/dashboard' },
+        { title: 'Jose' }
       ]
     },
     component: StarterComponent

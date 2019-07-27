@@ -38,7 +38,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 4)  ng build --prod
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------fazendo commit p/ master-------------------------------------------------------------------------------------------------------------------
+
+1)git branch -> p/ ver em qual branch vc esta
+
+2) git add . -> para especificar que vc quer subir todos os arquivos alterados
+
+3) git commit -m "mensagem" -> preparando arquivos p/ subir na versão
+
+4) git push origin master -> subindo versão
+
+
+
 
 
 
