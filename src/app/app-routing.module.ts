@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ForgetComponent } from './forget/forget.component';
+import { ChatComponent } from './chat/chat.component';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { ForgetComponent } from './forget/forget.component';
 export class AppRoutingModule { 
 
   appRoutes: Routes=[
+    { path: 'chat', component: ChatComponent },
     { path: 'forget-account', component: ForgetComponent },
     { path: 'create-account', component: RegisterComponent },
     { path: '', component: LoginComponent },

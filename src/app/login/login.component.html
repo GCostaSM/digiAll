@@ -12,10 +12,10 @@
           </mat-form-field>
     
           <div class="example-button-row">
-              <button mat-raised-button color="primary">Login</button>
+              <button mat-raised-button color="primary" (click)="router.navigate(['/chat']);">Login</button>
               <button mat-raised-button color="primary" (click)="router.navigate(['/create-account']);" >Register</button>
           </div>
-        
+          
           <a  href="/forget-account">Forgot Password?</a>
     
     
