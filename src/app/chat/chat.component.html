@@ -2,12 +2,14 @@
         <button mat-raised-button color="warn" (click)="router.navigate(['/']);">Sair</button>
 </div>
 <mat-sidenav-container class="example-container">
-  <mat-sidenav mode="side" opened>Amigos
-
-
+  <mat-sidenav mode="side" opened>
+    <app-friendslist></app-friendslist> 
   </mat-sidenav>
-  <mat-sidenav-content>$ PESSOA Status
-
-
+  <mat-sidenav-content>
+      <table class="talking-person">
+          <tr>
+              <td class="foto"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjt90cu7CbRdMU95TIpt086BNvrA7pHMZk3XWl9knvvbpUEvD7g" alt="person"></td><td class="name">AnaJul</td>
+          </tr>
+      </table>
   </mat-sidenav-content>
 </mat-sidenav-container>

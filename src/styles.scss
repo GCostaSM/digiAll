@@ -26,5 +26,5 @@ $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-
 @include angular-material-theme($candy-app-theme);
 
 body{
-    background-image: url('https://wallpaperplay.com/walls/full/a/c/2/6020.jpg');
+    background-color: rgb(41, 42, 45);
 }

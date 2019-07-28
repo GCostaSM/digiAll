@@ -14,6 +14,8 @@ import { ForgetComponent } from './forget/forget.component';
 import { ChatComponent } from './chat/chat.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { FormsModule } from '@angular/forms';
+import { FriendslistComponent } from './chat/friendslist/friendslist.component';
+import { TalkComponent } from './chat/talk/talk.component';
 let routes = new AppRoutingModule().appRoutes;
 
 @NgModule({
@@ -23,7 +25,9 @@ let routes = new AppRoutingModule().appRoutes;
     RegisterComponent,
     LoginComponent,
     ForgetComponent,
-    ChatComponent
+    ChatComponent,
+    FriendslistComponent,
+    TalkComponent
   ],
   imports: [
     FormsModule,      
