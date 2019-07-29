@@ -13,4 +13,11 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
+  goToForgot(){
+    this.router.navigate(['/forget-account'])
+  }
+
+  goToLogin(){
+    this.router.navigate(['/'])
+  }
 }
