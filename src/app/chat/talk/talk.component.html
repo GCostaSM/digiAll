@@ -1,11 +1,11 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 <div class="conversation">
 
-    <div class="question">
-        <p>OEEEE COMO VAI VOCÊ?</p>
-    </div>
+    <ng-template ngFor let-item [ngForOf]="conversation" let-i="index" [ngForTrackBy]="trackByFn">
+            <div class="{{conversation[i].class}}">
+                <p>{{conversation[i].mensagem}}</p>
+            </div>
+      </ng-template>
 
-    <div class="answer">
-        <p>vou bem</p>
-    </div>
 </div>
+
